@@ -29,23 +29,68 @@
 /* proprietà main */
 
 .main-content {
-    height: 600px;
-    width: 900px;
+    max-width: 900px;
     margin: auto;
     margin-top: 50px;
 }
 
 .header-main {
-    border-bottom: 1px solid gray;
-    height: 100px;
+    border-bottom: 1px solid lightgray;
 }
 
 a {
-    margin-left: 20px;
-    font-size: 25px;
-    background-color: rgb(95, 124, 204);
+    font-size: 20px;
     text-decoration: none;
-    color: white;
     padding: 10px;
+    border-radius: 10px;
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+#Atask {
+    background-color: rgb(95, 124, 204);
+    color: white;
+    margin-left: 50px;
+}
+
+#Asection {
+    background-color: white;
+    color: gray;
+    border: 1px solid gray;
+}
+
+/* prima sezione */
+
+.section-main {
+    margin-left: 50px;
+}
+
+h2 {
+    margin-top: 50px;
+}
+
+
+li {
+    list-style: none;
+    background-color: white;
+    font-size: 20px;
+    line-height: 50px;
+}
+
+.spunta {
+    color: green;
+    border-radius: 50%;
+    border: 1px solid green;
+    padding: 5px;
+    background-color: white;
+
+}
+
+.editorial{
+    background-color: rgb(87, 87, 226);
+    color: white;
+    font-size: 15px;
+    padding: 5px;
     border-radius: 10px;
 }
