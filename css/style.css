@@ -2,7 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding:0;
-    background-color: lightgray;
+    background-color: rgba(207, 211, 205, 0.336);
 }
 
 /* proprietà header */
@@ -35,7 +35,7 @@
 }
 
 .header-main {
-    border-bottom: 1px solid lightgray;
+    border-bottom: 1px solid rgba(207, 211, 205, 0.336);
 }
 
 a {
@@ -87,10 +87,42 @@ li {
 
 }
 
-.editorial{
-    background-color: rgb(87, 87, 226);
+.x {
+    color: red;
+    border-radius: 50%;
+    border: 1px solid red;
+    padding: 5px;
+    background-color: white;
+
+}
+
+.color{
     color: white;
     font-size: 15px;
     padding: 5px;
     border-radius: 10px;
+}
+
+#editorial {
+    background-color: rgb(116, 116, 216);
+}
+
+#goals {
+    background-color: rgb(46, 46, 172);
+}
+
+#recruiting {
+    background-color: rgb(182, 101, 101);
+}
+
+#mobile {
+    background-color: orange;
+}
+
+#website {
+    background-color: rgb(55, 54, 68);
+}
+
+#sales {
+    background-color: rgb(123, 180, 105);
 }
