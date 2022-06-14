@@ -35,3 +35,17 @@
     margin-top: 50px;
 }
 
+.header-main {
+    border-bottom: 1px solid gray;
+    height: 100px;
+}
+
+a {
+    margin-left: 20px;
+    font-size: 25px;
+    background-color: rgb(95, 124, 204);
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
